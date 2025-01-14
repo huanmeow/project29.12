@@ -2,8 +2,7 @@ import 'package:ecommerce_mobile_app/Provider/add_to_cart_provider.dart';
 import 'package:ecommerce_mobile_app/Provider/favorite_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'main2.dart';
-import 'screens/nav_bar_screen.dart';
+import 'OnBoarding/onboarding.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -24,9 +23,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         textTheme: GoogleFonts.mulishTextTheme(),
       ),
-      home: const ChaoMung(),
-
-      //BottomNavBar(),
+      home: const Onboaring(),
+     // BottomNavBar(),
     ),
   );
 }

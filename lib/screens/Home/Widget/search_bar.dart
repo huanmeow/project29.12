@@ -17,11 +17,9 @@ class MySearchBAR extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 5),
       child: Row(
         children: [
-          const Icon(
-            Icons.search,
-            color: Colors.grey,
-            size: 30,
-          ),
+          IconButton(onPressed: (){
+
+          }, icon: Icon(Icons.search)),
           const SizedBox(width: 10),
           const Flexible(
             flex: 4,
@@ -36,7 +34,9 @@ class MySearchBAR extends StatelessWidget {
             color: Colors.grey,
           ),
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+
+            },
             icon: const Icon(
               Icons.tune,
               color: Colors.grey,
